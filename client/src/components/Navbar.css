@@ -1,0 +1,92 @@
+body{
+    margin:0;
+  }
+  .Navbar {
+    width: 100%;
+    font-family: sans-serif;
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color:lightseagreen;
+    /* background-color:rgb(255,192,23); */
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0px;
+  }
+
+  .left{
+    margin-left: 80px;
+    cursor: pointer;
+    padding: 5px 0px;
+  }
+  
+  .right{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-right: 80px;
+  }
+  
+  h4{
+    margin:0px 6px;
+    font-weight: lighter;
+    font-size:14px;
+    cursor: pointer;
+  }
+  .right button{
+    color: white;
+    background-color: black;
+    height:40px;
+    width: 120px;
+    border-radius: 30px;
+    border:none;
+    cursor: pointer;
+  }
+  
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+  }
+
+  .logo h1{
+    font-size: 26px;
+  }
+
+  .GetStarted{
+    display: flex;
+    align-items: center;
+  }
+
+
+  .GetStarted img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+  }
+
+  @media (max-width: 600px) {
+    .right h4{
+      display: none;
+    }
+    .left{
+      margin-left:40px;
+    }
+    .right{
+      margin-right: 40px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .right h4{
+      display: none;
+    }
+   
+  }

@@ -1,0 +1,39 @@
+.logoContainer{
+    cursor: pointer;
+}
+.logoContainer img{
+    height: 80px;
+    border-radius: 50px;
+}
+.wrapper{
+    padding: 1rem;
+    width: 5rem;
+    height: 96.0vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightseagreen;
+}
+.iconsContainer{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    gap: 1.4rem;
+    font-size: 1.5rem;
+}
+.divider{
+    border: 1px black solid;
+}
+
+.profileImg{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.profileImgContainer{
+    /* width: 2.4rem; */
+    /* height: 2.4rem; */
+}

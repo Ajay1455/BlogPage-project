@@ -1,0 +1,116 @@
+.recWrapper{
+    height: 100vh;
+    min-width:10rem;
+    max-width: 30rem;
+    flex: 1.2;
+    right: 2rem;
+}
+
+.accentedBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .87rem;
+    background-color: black;
+    color: white;
+    margin: 2rem 0;
+    padding:  .6rem 0;
+    border-radius: 50px;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    height: 2.6rem;
+    border: 1px solid black;   
+    border-radius: 50px;
+    padding: 0 1rem;
+}
+
+.searchInput{
+    border: none;
+    outline: none;
+    background: none;
+    width:100% ;
+}
+
+.AutherContainer{
+
+}
+.AutherImgContainer{
+    height: 5rem;
+    width: 5rem;
+    border-radius:50px ;
+    overflow: hidden;
+}
+
+.AutherName{
+    font-weight: 600;
+    margin-bottom:.2rem;
+    margin-top: 1rem;
+}
+
+.followers{
+    color: #787878;
+}
+
+.AutherAction{
+    display: flex;
+    gap: .6rem;
+    margin:1rem 0;
+}
+.actionBtn{
+    background: #1a8917;
+    color: white;
+    border-radius: 50px;
+    padding: .4rem .6rem;
+    font-size: .87rem;
+    border: none;
+    cursor: pointer;
+}
+
+.recommendAutherProfileImgContainer{
+    overflow: hidden;
+    border-radius: 50px;
+    height: 1.4rem;
+    width: 1.4rem;
+}
+.recommendAutherName{
+    font-size: .87rem;
+}
+
+.recommendationAutherContainer{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+.recommendationThumbnailContainer{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+}
+
+.recommendationThumbnail{
+    object-fit:cover;
+}
+
+.recommendedTitle{
+    font-weight: bold;
+}
+
+.articleContentWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 1rem 0 ;
+}
+
+.articleContent{
+    flex: 4;
+
+}

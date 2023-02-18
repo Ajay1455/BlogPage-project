@@ -1,0 +1,62 @@
+.HeadContent{
+    /* background-color: rgb(255,192,23); */
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-around;
+    height: 436px;
+    margin-top: 75px;
+  }
+  
+  .HLeft button{
+    color: white;
+    background-color: black;
+    height:40px;
+    width: 120px;
+    border-radius: 30px;
+    border:none;
+    cursor: pointer;
+  }
+
+  .HLeft{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+  }
+  
+  .HRight{
+    background-color:lightseagreen;
+    width: 50%;
+    border-radius:30px;
+    height:300px;
+    margin: 70px;
+  }
+
+ .Stay{
+    font-size: 70px;
+    margin: 0;
+ }
+
+ @media (max-width: 600px) {
+  .HRight{
+    display: none;
+  }
+  .HLeft button{
+    height:40px;
+    width: 120px;
+  }
+  .HLeft{
+    padding: 40px;
+  }
+  }
+
+  @media (max-width: 900px) {
+    .HRight{
+      display: none;
+    }
+    .HLeft button{
+      height:40px;
+      width: 120px;
+    }
+  }
+ 
